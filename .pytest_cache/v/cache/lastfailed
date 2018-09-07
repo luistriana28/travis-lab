@@ -1,0 +1,6 @@
+{
+  "test.py::test_answer": true,
+  "test.py::test_resultado_10": true,
+  "test.py::test_resultado_20": true,
+  "tests/test_hello.py": true
+}

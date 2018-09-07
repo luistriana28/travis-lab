@@ -10,7 +10,7 @@ install:
 
 script:
   - python hello.py
-  - pytest tests/test_hello.py
+  - pytest hello.py
 
 after_succes:
-  - coveralls
+  - travis_after_tests_success
