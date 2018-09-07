@@ -10,6 +10,7 @@ install:
 
 script:
   - python hello.py
+  - pytest tests/test_hello.py
 
 after_succes:
   - coveralls
